@@ -1,0 +1,181 @@
+#title
+{
+  color: #ffffff;
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+.holder
+{
+  position: relative;
+  display: flex;
+}
+.company
+{
+  margin: 50px 0px 0px 100px;
+  background:rgba(255, 255, 255, 0.5);
+  height: 380px;
+  width: 230px;
+  border-radius: 8px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.container
+{
+  margin: 50px 0px 0px 30px;
+  height: 380px;
+  width: 65%;
+  position: relative;
+  display: inline-block;
+}
+
+.days
+{
+  margin: 0px 0px 0px 0px;
+  background:rgba(255, 255, 255, 0.5);
+  height: 80px; 
+  border-radius: 8px;
+  position: relative;
+  display: block;
+}
+
+.chart
+{
+  margin: 20px 0px 0px 0px;
+  height: 280px;
+  background:rgba(255, 255, 255, 0.5);
+  position: relative;
+  display: flex;
+  border-radius: 8px;
+}
+
+canvas
+{
+  height: 230px !important;
+  width: 830px !important;
+  margin: 40px 0px 20px 10px;
+}
+
+#day{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  margin-left:55px;
+  margin-top: 5px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 17px;
+}
+
+.mon
+{
+  margin-left:90px;
+}
+.tue
+{
+  margin-left:90px;
+}
+.wed
+{
+  margin-left:90px;
+}
+.thu
+{
+  margin-left:90px;
+}
+.fri
+{
+  margin-left:90px;
+}
+.sat
+{
+  margin-left:90px;
+}
+#val{
+  color: #ffffff;
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  margin-left:50px;
+}
+.val1
+{
+  margin-top: 15px;
+}
+.val2
+{
+  margin-top: 15px;
+  margin-left:80px;
+}
+.val3
+{
+  margin-top: 15px;
+  margin-left:80px;
+}
+.val4
+{
+  margin-top: 15px;
+  margin-left:75px;
+}
+.val5
+{
+  margin-top: 15px;
+  margin-left:80px;
+}
+.val6
+{
+  margin-top: 15px;
+  margin-left:68px;
+}
+.val7
+{
+  margin-top: 15px;
+  margin-left:65px;
+}
+
+.logo
+{
+  margin: 90px 0px 0px 77px;
+}
+.name
+{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+  font-family: Tahoma, Geneva, sans-serif;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+.symbol
+{
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Tahoma, Geneva, sans-serif;
+  letter-spacing: 1px;
+}
+
+.time
+{
+  margin-top: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+  font-family: Tahoma, Geneva, sans-serif;
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+button
+{
+  margin:30px 0px 0px 650px;
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+}

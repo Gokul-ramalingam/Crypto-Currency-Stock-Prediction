@@ -1,0 +1,52 @@
+<div id="title">
+    <h1>{{stocks.name}} Stock Details</h1>
+   </div>
+   
+   <div class="holder">
+       <div class="company">
+         <div class="logo">
+           <img src="{{stocks.image}}" height="70px">
+         </div>
+         <div class="name">
+           {{stocks.name}}
+         </div>
+         <div class="symbol">
+           {{stocks.symbol}}
+         </div>
+         <div class="time">
+           {{stocks.time}}
+         </div>
+       </div>
+       <div class="container">
+         <div class="days">
+           <div id="val">
+               <b class="val1">{{stocks.weekReport[0]}}</b>
+               <b class="val2">{{stocks.weekReport[1]}}</b>
+               <b class="val3">{{stocks.weekReport[2]}}</b>
+               <b class="val4">{{stocks.weekReport[3]}}</b>
+               <b class="val5">{{stocks.weekReport[4]}}</b>
+               <b class="val6">{{stocks.weekReport[5]}}</b>
+               <b class="val7">{{stocks.weekReport[6]}}</b>
+           </div>
+           <div id="day">
+               <span class="sun">SUN</span>
+               <span class="mon">MON</span>
+               <span class="tue">TUE</span>
+               <span class="wed">WED</span>
+               <span class="thu">THU</span>
+               <span class="fri">FRI</span>
+               <span class="sat">SAT</span>
+           </div>
+         </div>
+        
+         <div class="chart">
+           <canvas id="canvas"></canvas>
+         </div>
+     
+       </div>
+   </div>
+   <button (click)='back()'>Back</button>
+  
+  
+
+

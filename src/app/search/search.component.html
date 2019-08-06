@@ -1,0 +1,81 @@
+<div id="main">
+  <div id="left">
+      <div id="container1">
+          <img src="\assets\logos\Crypto - Logo.svg" alt="Crypto Currency logo" height="40px">
+      </div>
+      <div id="container2">
+           Crypto Currency Prediction
+      </div>
+  </div>
+    <div id="right">
+    
+       <div id="container3">
+            Hello, Rebecca
+       </div>
+        <div id="container4">
+            <img src="\assets\images\user - profile.png" height="65px">
+        </div> 
+    </div>
+</div>
+
+<div class="searchBar">
+<input #stockValue type="text" placeholder="Search stock you want to predict" name="search" value="">
+<img src="\assets\logos\search - icon.svg" alt="search icon" (click)='func(stockValue.value);stockValue.placeholder=stockValue.value;stockValue.value="";ngOnInit()'>
+</div>
+<div class="holder" *ngIf='flag'>
+<div class="company">
+  <div class="logo">
+    <img src="{{image}}" height="40px">
+  </div>
+  <div class="name">
+    {{name}}
+  </div>
+  <div class="symbol">
+    {{symbol}}
+  </div>
+  <div class="time">
+    {{time}}
+  </div>
+</div>
+
+  <div class="chart" (click)='ngOnInit();show=true'>
+    <span *ngIf='!show'>Click here to view chart</span>
+    <canvas id="canvas"></canvas>
+  </div>
+
+</div>
+<div class="past" *ngIf='past.length > 0'>
+<div class="title">
+    <span>Past Searches</span>
+</div>
+<div class="cont" *ngFor='let p of past' (click)='viewPage(p.id)'>
+   <div class="det">
+      <b>{{p.symbol}}</b>
+      <div class="companyName">{{p.name}}</div>
+      <div class="timing">
+       {{p.time}}
+      </div>
+   </div>
+      
+    <div>
+        <div id="valu">
+            <b class="valu1">{{p.weekReport[0]}}</b>
+            <b class="valu2">{{p.weekReport[1]}}</b>
+            <b class="valu3">{{p.weekReport[2]}}</b>
+            <b class="valu4">{{p.weekReport[3]}}</b>
+            <b class="valu5">{{p.weekReport[4]}}</b>
+            <b class="valu6">{{p.weekReport[5]}}</b>
+            <b class="valu7">{{p.weekReport[6]}}</b>
+        </div>
+        <div id="week">
+            <span class="sun1">SUN</span>
+            <span class="mon1">MON</span>
+            <span class="tue1">TUE</span>
+            <span class="wed1">WED</span>
+            <span class="thu1">THU</span>
+            <span class="fri1">FRI</span>
+            <span class="sat1">SAT</span>
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,370 @@
+#left{
+    float: left;
+    display: flex;
+    position: absolute;
+  }
+  #container1{
+    margin: 45px 15px 0px 70px;
+  }
+  #container2
+  {
+    margin-top: 50px;
+  }
+  #container2 {
+    color: #ffffff;
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-family: Tahoma, Geneva, sans-serif;
+  }
+  #right{
+    float: right;
+    display: flex;
+    margin-left: 1050px;
+  }
+  #container4{
+    margin: 40px 60px 0px 15px;
+  }
+  #container3{
+    margin-top: 60px;
+  }
+  #container3 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .searchBar input
+  {
+     width: 88%;
+     height: 65px;
+     border-radius: 50px;
+     background:rgba(255, 255, 255, 0.2);
+     margin: 40px 50px 0px 60px;
+     padding-left: 35px;
+     font-size: 20px;
+     border: none;
+     outline: none;
+     color: #ffffff;
+  }
+  ::placeholder{
+      color: rgba(255, 255, 255, 0.6);
+      
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: #ffffff;
+    }
+    
+    ::-ms-input-placeholder { /* Microsoft Edge */
+      color: #ffffff;
+    }
+  #searchBar
+  {
+    position: relative;
+    display: flex;
+  }
+  .searchBar img
+  {
+    position: absolute;
+    margin: 46px 83px 0px 60px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    height: 25px;
+    right: 0;
+    background-color: transparent;
+  }
+  
+  .holder
+  {
+    position: relative;
+    display: flex;
+  }
+  .company
+  {
+    margin: 50px 0px 0px 100px;
+    background:rgba(255, 255, 255, 0.2);
+    height: 400px;
+    width: 230px;
+    border-radius: 8px;
+    position: relative;
+    display: inline-block;
+    float: left;
+  }
+  .container
+  {
+    margin: 50px 0px 0px 30px;
+    height: 450px;
+    width: 65%;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .days
+  {
+    margin: 0px 0px 0px 0px;
+    background:rgba(255, 255, 255, 0.2);
+    height: 100px; 
+    border-radius: 8px;
+    position: relative;
+    display: block;
+  }
+  
+  .chart
+  {
+    margin: 50px 0px 0px 40px;
+    height: 400px;
+    width: 830px;
+    background:rgba(255, 255, 255, 0.2);
+    position: relative;
+    display: flex;
+    border-radius: 8px;
+  }
+  .chart span{
+    color: #ffffff;
+    margin-left: 300px;
+    display: flexbox;
+    position: absolute;
+    margin-top: 170px;
+    font-size:25px;
+    font-family: Tahoma, Geneva, sans-serif;
+  }
+  
+  canvas
+  {
+    height: 330px !important;
+    width: 670px !important;
+    margin: 40px 0px 0px 80px;
+  }
+  
+  #day{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    margin-left:75px;
+    margin-top: 5px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 17px;
+  }
+  
+  .mon
+  {
+    margin-left:80px;
+  }
+  .tue
+  {
+    margin-left:85px;
+  }
+  .wed
+  {
+    margin-left:80px;
+  }
+  .thu
+  {
+    margin-left:82px;
+  }
+  .fri
+  {
+    margin-left:85px;
+  }
+  .sat
+  {
+    margin-left:85px;
+  }
+  #val{
+    color: #ffffff;
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    margin-left:70px;
+  }
+  .val1
+  {
+    margin-top: 25px;
+  }
+  .val2
+  {
+    margin-top: 25px;
+    margin-left:70px;
+  }
+  .val3
+  {
+    margin-top: 25px;
+    margin-left:70px;
+  }
+  .val4
+  {
+    margin-top: 25px;
+    margin-left:70px;
+  }
+  .val5
+  {
+    margin-top: 25px;
+    margin-left:70px;
+  }
+  .val6
+  {
+    margin-top: 25px;
+    margin-left:70px;
+  }
+  .val7
+  {
+    margin-top: 25px;
+    margin-left:60px;
+  }
+  .logo img
+  {
+    margin: 80px 80px 10px 83px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+  }
+  .name
+  {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+  }
+  
+  .symbol
+  {
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .time
+  {
+    margin-top: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+  }
+  
+  .title
+  {
+    margin: 80px 0px 50px 65px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  .cont{
+    margin: 20px 65px 0px 65px;
+    background:rgba(255, 255, 255, 0.2);
+    height: 130px; 
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+  }
+  .det
+  {
+    margin: 20px 0px 0px 50px;
+  }
+  .det b
+  {
+     color: #ffffff;
+     font-size: 20px;
+  }
+  .companyName
+  {
+    margin:10px 0px 0px 0px;
+    color: #ffffff;
+    font-size: 17px;
+  }
+  
+  .timing
+  {
+    margin: 10px 0px 0px -10px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 7px;
+  }
+  
+  #week{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    margin-left:70px;
+    margin-top: 15px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 17px;
+  }
+  
+  .mon1
+  {
+    margin-left:90px;
+  }
+  .tue1
+  {
+    margin-left:90px;
+  }
+  .wed1
+  {
+    margin-left:90px;
+  }
+  .thu1
+  {
+    margin-left:90px;
+  }
+  .fri1
+  {
+    margin-left:90px;
+  }
+  .sat1
+  {
+    margin-left:90px;
+  }
+  #valu{
+    color: #ffffff;
+    font-size: 20px;
+    position: relative;
+    display: flex;
+    margin-left:65px;
+    margin-top: 20px;
+  }
+  .valu1
+  {
+    margin-top: 15px;
+  }
+  .valu2
+  {
+    margin-top: 15px;
+    margin-left:80px;
+  }
+  .valu3
+  {
+    margin-top: 15px;
+    margin-left:80px;
+  }
+  .valu4
+  {
+    margin-top: 15px;
+    margin-left:75px;
+  }
+  .valu5
+  {
+    margin-top: 15px;
+    margin-left:80px;
+  }
+  .valu6
+  {
+    margin-top: 15px;
+    margin-left:68px;
+  }
+  .valu7
+  {
+    margin-top: 15px;
+    margin-left:65px;
+  }
