@@ -1,5 +1,34 @@
 # CryptoCurrencyPrediction
 
+This repository contains an angular application which provides crypto currency stock details  in effective and efficient way using Chart JS.
+
+## Languages Utilized
+
+* HTML
+* CSS
+* TypeScript
+
+## Components
+
+* search
+* view
+* page-not-found
+
+## Additional Feature
+~~~
+Chart JS
+~~~
+
+## Preview
+
+![image](readme/first.png)
+![image](readme/second.png)
+![image](readme/three.png)
+![image](readme/fourth.png)
+![image](readme/fifth.png)
+
+# Angular CLI
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.6.
 
 ## Development server
